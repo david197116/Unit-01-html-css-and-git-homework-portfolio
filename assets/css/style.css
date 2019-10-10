@@ -1,0 +1,78 @@
+body {
+    background-color: #dddddd;
+}
+#ProfilePicture{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+header{
+    overflow: auto;
+    clear: both;
+    background-color: #4aaaa5;
+    color: white;
+    border-color: #cccccc;
+    width: 33%;
+    text-align: center;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Place Navigation above right corner */
+#navigation {
+    float:right;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: absolute;
+    top: 50px;
+    right: 85;
+}
+.container{
+    overflow: auto;
+    clear: both;
+    width: 960px;
+    margin-left: 60px;
+    background-color: white;
+    padding: 20px;
+    border-color: #dddddd;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    color: #777777;
+}
+
+#contact-info {
+    text-align: left;
+}
+
+/* Sticky Footer */
+.Footer {
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    height: 50px;
+    border-top-color: #4aaaa5;
+
+}
