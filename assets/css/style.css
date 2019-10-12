@@ -1,6 +1,12 @@
-body {
-    background-color: #dddddd;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #bea6a6;
+    line-height: 32px;
+    /* background-image: url("/Users/davidrivera-perez/BootCamp/HomeWork/Unit-01-html-css-and-git-homework-portfolio/assets/images/so-white.png"); */}
+
 #ProfilePicture{
     float: left;
     width: 200px;
@@ -16,7 +22,7 @@ header{
     border-color: #cccccc;
     width: 33%;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 87px;
     padding: 10px;
 }
 
@@ -45,8 +51,8 @@ h2{
     overflow: auto;
     clear: both;
     width: 960px;
-    margin-left: 60px;
-    background-color: white;
+    margin:0 auto 0 auto;
+    background-color:#ffffff;
     padding: 20px;
     border-color: #dddddd;
 }
@@ -58,6 +64,27 @@ p {
     color: #777777;
 }
 
+/* Contact Info */
+#contact{
+    height:50%;
+}
+
+#name{
+    width: 90%;
+    height: 5%;
+}
+
+#email{
+    width: 90%;
+    height: 5%;
+}
+
+#message{
+    width: 90%;
+    height: 30%;
+}
+
+/* Socialmedia placeholders */
 #contact-info {
     text-align: left;
 }
@@ -75,4 +102,21 @@ p {
     height: 50px;
     border-top-color: #4aaaa5;
 
+}
+
+
+}
+a:active{
+    color: burlywood;
+}
+
+#button {
+    background-color: #4aaaa5;
+    color: white;
+
+}
+
+/* High light button when active */
+#button:active{
+    color: tomato;
 }
